@@ -1,0 +1,9 @@
+C-R-U-D: Create-Read-Update-Delete
+for html files always add python code using jinja syntax
+run the local host - on the terminal: 'python app.py'
+create your db file - on the terminal: 'python', 'from app import db', 'db.create_all()'
+add entries to your model(BlogPost) - on the terminal: 'from app import BlogPost', 'db.session.add(BlogPost(title='Blog Post 1',
+content='Today were gonna talk about how to add an API to your bum', author='Alex'))
+'
+print all entries in your model - on the terminal: 'BlogPost.query.all()'
+[Blog Post 1, Blog Post 2]
