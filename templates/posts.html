@@ -18,7 +18,7 @@
         <br>
         <h2>{{ post.title }}</h2>
         {% if post.author %}
-            <small><i>Written by</i>: {{ post.author }} on {{post.date_posted}}</small>
+            <small><i>Written by</i>: {{ post.author }} on {{ post.date_posted }}</small>
         {% else %}
             <small>Written by: Unknown on {{post.date_posted}}</small>
         {% endif %}
