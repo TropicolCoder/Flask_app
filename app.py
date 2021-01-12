@@ -62,7 +62,7 @@ def edit(id):
 
 
 @app.route('/posts/new', methods=['GET', 'POST'])
-def new_post():
+def add_new_post():
     if request.method == 'POST':
         post_title = request.form['title']
         post_content = request.form['content']
